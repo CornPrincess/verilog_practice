@@ -9,4 +9,6 @@ module top_module (
     assign y[7:0] = {d[3:0], e[4: 1]};
     assign z[7:0] = {e[0:0], f[4: 0], 2'b11};
 
+    // assign {w, x, y, z} = {a, b, c, d, e, f, 2'b11};
+
 endmodule
