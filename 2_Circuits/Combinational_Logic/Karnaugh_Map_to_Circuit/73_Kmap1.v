@@ -5,5 +5,6 @@ module top_module(
     output out  ); 
     
     assign out = ~(~a & ~b & ~c);
+    // assign out = (a | b | c);
 
 endmodule
